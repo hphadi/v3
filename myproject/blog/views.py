@@ -41,7 +41,7 @@ def articles(request):
 
     return render(request,"blog/articles.html",articlesContext)
 
-
+#JsonResponse sample static api
 def api(request):
     data = {
         "1":{
